@@ -1,0 +1,36 @@
+@import "_navigation";
+
+hero  {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-content: center;
+  align-items: center;
+  color: white;
+  font-family: Open+Sans;
+  h1  {
+    text-align: center;
+    font-size: 70px;
+    font-family: Open+Sans;
+    // height: 30px;
+    p {
+      font-size: 20px;
+      text-align: center;
+      }
+    }
+    h2  {
+      height: 60px;
+      width: 160px;
+      background-color: green;
+      text-align: center;
+      // vertical-align: middle;
+
+    }
+  }
+.splash {
+  // background: url(../img/intro-bg.jpg) top center no-repeat;
+  // background-image: image(assets/image/intro-bg.jpg);
+  background-image: url("../images/intro-bg.jpg");
+	background-color: #e5e5e5;
+  color: white;
+}
