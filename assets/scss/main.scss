@@ -14,6 +14,8 @@ header {
   h1  {
     text-align: center;
     font-size: 70px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     // font-family: Open+Sans;
     // height: 30px;
     p {
@@ -36,6 +38,28 @@ header {
   background-image: url("../images/intro-bg.jpg");
 	background-color: #e5e5e5;
   color: white;
+  height: 780px;
+  width: 100%;
+}
+h3  {
+  margin-bottom: 10px;
+}
+#whatwedo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 440;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.service  {
+  height: 390px;
+  width: 360px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
 
 @import "_navigation";
