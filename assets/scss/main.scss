@@ -38,7 +38,7 @@ header {
   background-image: url("../images/intro-bg.jpg");
 	background-color: #e5e5e5;
   color: white;
-  height: 780px;
+  height: 770px;
   width: 100%;
 }
 h3  {
@@ -56,10 +56,22 @@ h3  {
 .service  {
   height: 390px;
   width: 360px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 15px;
+  h2  {
+    font-size: 35px;
+  }
+}
+.service .img-responsive  {
+  height: 390px;
+  padding-left: 35px;
+  text-align: center;
+.service{
+  height: 20px;
+  width: 80px;
 }
 
+}
 @import "_navigation";
